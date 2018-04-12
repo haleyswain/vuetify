@@ -1,5 +1,5 @@
 <template>
-
+  <h1>Articles</h1>
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
