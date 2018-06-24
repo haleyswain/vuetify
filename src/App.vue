@@ -25,14 +25,6 @@
             <v-list-tile-title>Articles</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile to="/projects">
-          <v-list-tile-action>
-            <v-icon>work</v-icon>
-          </v-list-tile-action>
-          <v-list-tile-content>
-            <v-list-tile-title>Projects</v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
         <v-list-tile to="/tech">
           <v-list-tile-action>
             <v-icon>work</v-icon>
@@ -63,7 +55,7 @@
       </v-list>
     </v-navigation-drawer>
     <v-footer :fixed="fixed" app>
-      <span>&copy; 2018</span>
+      <span>&copy; 2018 Haley Swain</span>
     </v-footer>
   </v-app>
 </template>
