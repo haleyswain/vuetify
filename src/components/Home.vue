@@ -18,7 +18,7 @@
     <div class="profile-home__circular-image">
     </div>
     <div class="profile-home__about">
-      <p>I'm a dog mom, adventure enthusiast, and front-end developer currently residing in the Silicon Forest. My roots come from the plains of Montana, where I grew up with a love and passion for everything outdoors. I am currently fully engaged at <a href="http://pollinate.com/#!/">Pollinate</a>, but always love meeting new people.</p>
+      <p>I'm a dog mom, adventure enthusiast, and front-end developer currently residing in the Silicon Forest. My roots come from the plains of Montana, where I grew up with a love and passion for everything outdoors. I am currently fully engaged at <a href="http://pollinate.com/#!/">Pollinate</a>, but always love meeting new people. Don't hesitate to reach out!</p>
     </div>
     <div class="profile-home__icons">
       <span class="profile-home__icons-linkedIn">
