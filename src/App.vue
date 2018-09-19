@@ -17,20 +17,28 @@
             <v-list-tile-title>Home</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
-        <v-list-tile to="/articles">
+        <!-- <v-list-tile to="/articles">
           <v-list-tile-action>
             <v-icon>subject</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title>Articles</v-list-tile-title>
           </v-list-tile-content>
-        </v-list-tile>
+        </v-list-tile> -->
         <v-list-tile to="/tech">
           <v-list-tile-action>
             <v-icon>work</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title>Tech</v-list-tile-title>
+          </v-list-tile-content>
+        </v-list-tile>
+        <v-list-tile to="/projects">
+          <v-list-tile-action>
+            <v-icon>assignment</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-content>
+            <v-list-tile-title>Projects</v-list-tile-title>
           </v-list-tile-content>
         </v-list-tile>
       </v-list>

@@ -84,6 +84,7 @@ a {
     background-size: cover;
     display: block;
     margin: auto;
+    border-radius: 50%;
   }
   &__about {
     display: flex;
@@ -92,6 +93,7 @@ a {
     p {
       width: 70%;
       font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
     }
   }
   &__icons {
@@ -165,7 +167,6 @@ a {
   // divisions will be displayed as inline elements
   &__rw-words{
   	display: inline;
-  	text-indent: 10px;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
   }
@@ -176,6 +177,7 @@ a {
   	overflow: hidden;
   	width: 100%;
   	color: #FFFF;
+    margin-left: 43%;
   }
   // run animation
   &__rw-words-2 span {

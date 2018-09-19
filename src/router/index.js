@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Articles from '@/components/Articles'
 import Tech from '@/components/Tech'
+import Projects from '@/components/Projects'
 
 Vue.use(Router)
 
@@ -15,13 +16,18 @@ export default new Router({
     },
     {
       path: '/articles',
-      projects: 'Articles',
+      name: 'Articles',
       component: Articles
     },
     {
       path: '/tech',
-      projects: 'Tech',
+      name: 'Tech',
       component: Tech
+    },
+    {
+      path: '/projects',
+      name: 'Projects',
+      component: Projects
     }
 
   ]
