@@ -8,9 +8,6 @@
             <span>Hello</span>
             <span>Hej</span>
             <span>Ciao</span>
-            <span>Namaste</span>
-            <span>Salaam</span>
-            <span>Guten Tag</span>
           </div>
         </h2>
       </section>
@@ -18,7 +15,7 @@
     <div class="profile-home__circular-image">
     </div>
     <div class="profile-home__about">
-      <p>I'm a dog mom, adventure enthusiast, and front-end developer currently residing in the Silicon Forest. My roots come from the plains of Montana, where I grew up with a love and passion for everything outdoors. I am currently fully engaged at <a href="http://pollinate.com/#!/">Pollinate</a>, but always love meeting new people. Don't hesitate to reach out!</p>
+      <p>I'm a dog mom, adventure enthusiast, and front-end engineer currently residing in the Silicon Forest. My roots come from the plains of Montana, where I grew up with a love and passion for everything outdoors. I am currently fully engaged at <a href="http://pollinate.com/#!/">Pollinate</a>, but always love meeting new people. Don't hesitate to reach out!</p>
     </div>
     <div class="profile-home__icons">
       <span class="profile-home__icons-linkedIn">
@@ -61,7 +58,7 @@ a {
 }
 .profile-home{
   &__image {
-    background-image: url('https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     height: 75%;
     background-position: center;
     background-repeat: no-repeat;
@@ -169,6 +166,7 @@ a {
   	display: inline;
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
+    padding-bottom: 50px;
   }
   // Each span inside of a rw-words div will be positioned absolutely and hide any overflow
   &__rw-words span{
@@ -177,7 +175,8 @@ a {
   	overflow: hidden;
   	width: 100%;
   	color: #FFFF;
-    margin-left: 43%;
+    margin-left: 40%;
+    bottom: 50%;
   }
   // run animation
   &__rw-words-2 span {
