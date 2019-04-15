@@ -77,7 +77,7 @@ export default {
       fixed: false,
       miniVariant: false,
       right: true,
-      rightDrawer: false,
+      rightDrawer: false
     }
   },
   name: 'App'

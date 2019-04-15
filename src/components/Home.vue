@@ -26,10 +26,6 @@
         <a href="https://twitter.com/hswain13"><img src="../assets/Twitter_Logo_WhiteOnImage.png">
         </a>
       </span>
-      <span class="profile-home__icons-instagram">
-        <a href="https://www.instagram.com/hswain13/"><img src="http://bbcpersian7.com/images/instagram-clipart-black-and-white-6.jpg">
-        </a>
-      </span>
       <span class="profile-home__icons-github">
         <a href="https://github.com/haleyswain"><img src="../assets/GitHub-Mark-64px.png">
         </a>
@@ -99,7 +95,7 @@ a {
     &-linkedIn {
       a {
         img {
-          width: 50px;
+          width: 55px;
           height: 50px;
           margin: 1em;
         }
@@ -114,19 +110,10 @@ a {
         }
       }
     }
-    &-instagram {
-      a {
-        img {
-          width: 65px;
-          height: 50px;
-          margin: 1em;
-        }
-      }
-    }
     &-github {
       a {
         img {
-          width: 55px;
+          width: 60px;
           height: 50px;
           margin: 1em;
         }
