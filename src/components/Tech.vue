@@ -22,7 +22,7 @@
       <img src="../assets/node_js.png">
     </div>
     <div class="profile-tech__icon">
-      <img src="../assets/c#.png">
+      <img src="../assets/csharp.png">
     </div>
     <div class="profile-tech__icon">
       <img src="../assets/net.jpeg">
