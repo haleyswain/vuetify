@@ -4,6 +4,23 @@
       <v-card class="profile-projects__snake">
         <v-card-title primary-title>
           <div>
+            <h3 class="headline mb-0">JBL Custom Speakers</h3>
+            <div>Custom frontend for custom speakers!</div>
+          </div>
+        </v-card-title>
+
+        <v-card-actions>
+          <v-btn flat color="green" href="https://www.jbl.com/bluetooth-speakers/JBLFLIP5WHTAMCSTM.html?iscustomizable=true">Explore</v-btn>
+        </v-card-actions>
+        <img
+          class="profile-projects__jbl-image"
+          src="../assets/JBL.png"
+          aspect-ratio="10"
+        >
+      </v-card>
+      <v-card class="profile-projects__snake">
+        <v-card-title primary-title>
+          <div>
             <h3 class="headline mb-0">Snake</h3>
             <div>Programming exercise recreating the classic arcade game</div>
           </div>
@@ -15,7 +32,7 @@
         <img
           class="profile-projects__snake-image"
           src="../assets/snake.png"
-          aspect-ratio="2.75"
+          aspect-ratio="5"
         >
 
       </v-card>
@@ -35,7 +52,7 @@
         <img
           class="profile-projects__energytrust-image"
           src="../assets/energy-trust.png"
-          aspect-ratio="2.75"
+          aspect-ratio="0"
         >
       </v-card>
     </v-flex>
@@ -64,6 +81,17 @@
         width: 500px;
         height: 200px;
         padding: 5%;
+      }
+    }
+    &__jbl {
+      width: 500px;
+      height: 400px;
+      top: 100px;
+      margin: 10%;
+     &-image {
+        width: 500px;
+        height: 200px;
+        padding-bottom: 9%;
       }
     }
   }
