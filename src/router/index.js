@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from '@/components/Home'
-import Articles from '@/components/Articles'
+import Resources from '@/components/Resources'
 import Tech from '@/components/Tech'
 import Projects from '@/components/Projects'
 
@@ -15,9 +15,9 @@ export default new Router({
       component: Home
     },
     {
-      path: '/articles',
-      name: 'Articles',
-      component: Articles
+      path: '/resources',
+      name: 'Resources',
+      component: Resources
     },
     {
       path: '/tech',
