@@ -5,12 +5,9 @@
         class="mx-auto profile-projects__card"
         width="400"
       >
-        <v-img
-          class="white--text align-end"
-          height="200px"
+        <img
           src="https://www.jbl.com/on/demandware.static/-/Sites-JB-US-Library/default/dw6659dbc4/glp/personalize/images/hero.jpg"
         >
-        </v-img>
         <v-card-title>JBL Custom Speakers</v-card-title>
 
         <v-card-text class="text--primary">
@@ -25,12 +22,9 @@
         class="mx-auto profile-projects__card"
         width="400"
       >
-        <v-img
-          class="white--text align-end"
-          height="200px"
-          :src='require("../assets/snake.png")'
+        <img
+          src="../assets/snake.png"
         >
-        </v-img>
         <v-card-title>Snake</v-card-title>
 
         <v-card-text class="text--primary">
@@ -46,13 +40,10 @@
         class="mx-auto profile-projects__card"
         width="400"
       >
-        <v-img
+        <img
           class="white--text align-end profile-projects__energytrust"
-          height="200px"
-          :contain="true"
-          :src='require("../assets/energy-trust.png")'
+          src="../assets/energy-trust.png"
         >
-        </v-img>
         <v-card-title>Energy Trust of Oregon Forms</v-card-title>
 
         <v-card-text class="text--primary">
@@ -68,13 +59,10 @@
         class="mx-auto profile-projects__card"
         width="400"
       >
-        <v-img
-          class="white--text align-end profile-projects__UA"
+        <img
           height="200px"
-          :contain="true"
-          :src='require("../assets/UAlogo.png")'
+          src="../assets/UAlogo.png"
         >
-        </v-img>
         <v-card-title>Under Armour Team Uniform Configurator</v-card-title>
 
         <v-card-text class="text--primary">
@@ -149,6 +137,7 @@
   }
   img {
     width: 100%;
+    height: 200px;
   }
 
 </style>
