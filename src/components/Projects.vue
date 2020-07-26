@@ -86,12 +86,11 @@
         class="mx-auto profile-projects__card"
         width="400"
       >
-        <v-img
-          class="white--text align-end"
+        <img
+          class="project-image"
           height="200px"
-          :src='require("../../static/img/cash-coins-money.jpg")'
+          src="../../static/img/cash-coins-money.jpg"
         >
-        </v-img>
         <v-card-title>Pledge Project</v-card-title>
 
         <v-card-text class="text--primary">
@@ -147,6 +146,9 @@
         position: relative;
       }
     }
+  }
+  img {
+    width: 100%;
   }
 
 </style>
