@@ -81,6 +81,27 @@
           <div>Maintenance and new feature builds for Under Armour's internal 3D uniform configurator</div>
         </v-card-text>
       </v-card>
+
+      <v-card
+        class="mx-auto profile-projects__card"
+        width="400"
+      >
+        <v-img
+          class="white--text align-end"
+          height="200px"
+          :src='require("../assets/cash-coins-money.jpg")'
+        >
+        </v-img>
+        <v-card-title>Pledge Project</v-card-title>
+
+        <v-card-text class="text--primary">
+          <div>Created Using Vue CLI, Firebase, and Vuetify. Hosted on Netlify.</div>
+        </v-card-text>
+
+        <v-card-actions>
+          <v-btn flat color="green" href="https://pledge-project.netlify.app/">Explore</v-btn>
+        </v-card-actions>
+      </v-card>
     </v-flex>
   </v-layout>
 </template>
