@@ -89,7 +89,7 @@
         <v-img
           class="white--text align-end"
           height="200px"
-          :src='require("../assets/cash-coins-money.jpg")'
+          :src='require("../../static/cash-coins-money.jpg")'
         >
         </v-img>
         <v-card-title>Pledge Project</v-card-title>
